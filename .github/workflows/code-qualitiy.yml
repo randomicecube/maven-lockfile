@@ -26,10 +26,11 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
       - name: Dirty Waters Analysis
-        uses: chains-project/dirty-waters-action@v1.11.20
+        uses: chains-project/dirty-waters-action@v1.11.21
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           package_manager: maven
           ignore_cache: "true"
+          specified_smells: "--check-code-signature"
           debug: true
           gradual_report: true
