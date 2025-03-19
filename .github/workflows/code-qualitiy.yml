@@ -26,7 +26,7 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
       - name: Dirty Waters Analysis
-        uses: chains-project/dirty-waters-action@12e9897595a7044747907bf9fa6adcf5776792ad
+        uses: chains-project/dirty-waters-action@73e8356b1e3f00c7151de78724b79a223611e3d3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           package_manager: maven
