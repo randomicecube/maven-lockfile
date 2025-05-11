@@ -65,6 +65,8 @@
         "io.vertx:vertx-uri-template@4.5.11": "all",
         "io.vertx:vertx-web-common@4.5.11": "all",
         "io.vertx:vertx-auth-common@4.5.11": "all",
-        "org.jboss.marshalling:jboss-marshalling@2.2.1.Final": "all"
+        "org.jboss.marshalling:jboss-marshalling@2.2.1.Final": "all",
+        "org.eclipse.sisu:org.eclipse.sisu.plexus@0.9.0.M3": "all",
+        "commons-codec:commons-codec@1.17.2": "all"
     }
 }
