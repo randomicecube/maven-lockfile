@@ -30,8 +30,9 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           package_manager: maven
-          config: ./config/dirty-waters.json
-          ignore_cache: "true"
+          #config: ./config/dirty-waters.json
+          config: ./config/dirty-waters-critical.json
+          ignore_cache: "false"
           debug: true
           gradual_report: true
           fail_on_min_severity: "critical"
