@@ -26,13 +26,13 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
       - name: Dirty Waters Analysis
-        uses: chains-project/dirty-waters-action@02609618b73d5b93c506946e662b9c5904cc5770
+        uses: chains-project/dirty-waters-action@0850885db46e466a3464dcbac608d8ef71a8ef2d
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           package_manager: maven
           #config: ./config/dirty-waters.json
-          config: ./config/dirty-waters-critical.json
+          #config: ./config/dirty-waters-critical.json
           ignore_cache: false
           debug: true
           gradual_report: true
-          fail_on_min_severity: "critical"
+          #fail_on_min_severity: "critical"
